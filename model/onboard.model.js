@@ -1,5 +1,4 @@
 const mongoose=require('mongoose')
-const { NUMBER } = require('sequelize')
 const OnboardSchema=mongoose.Schema({
   
     name:{type:String,require:true},

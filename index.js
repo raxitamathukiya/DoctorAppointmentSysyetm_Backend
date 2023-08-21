@@ -10,7 +10,7 @@ app.use(express.json())
 
     app.get('/',async(req,res)=>{
     try {
-        res.status(200).send("")
+        res.status(200).send("welcome to masai hospital backend")
     } catch (error) {
         console.log(error)
     }
